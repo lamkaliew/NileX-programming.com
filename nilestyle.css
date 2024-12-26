@@ -4,6 +4,13 @@ body{
     font-family: arial, tahoma;
     
 }
-h1{
-    margin: 0 auto;
+.logo2{
+    color: red;
 }
+.inline{
+    display: inline-block;
+}
+/*
+.container{
+    background-color: darkslategray;
+}*/
