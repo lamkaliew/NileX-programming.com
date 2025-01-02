@@ -1,0 +1,265 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+    letter-spacing: 1.5px;
+}
+.drop-down-menu{
+    display: block;
+}
+.header .nav{
+    display: block;
+}
+.container{
+    width: 800px;
+    margin:0px auto;
+}
+.header{
+    width: 800px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+}
+.header .logo{
+    float: left;
+    font-style: italic;
+    color: white;
+}
+.header .prog{
+    font-style: italic;
+}
+.header .logo .nile{
+    font-size: 33px;
+}
+.xcolor{
+    color: red;
+}
+.header .nav{
+    width: 430px;
+    margin-top: 9px;
+    float: right;
+}
+.header .nav span{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 6px;
+}
+.header .nav a{
+    text-decoration: none;
+}
+.header .nav span:hover{
+    color: red;
+}
+.header .nav .active{
+    color: red;
+}
+#drop-menu svg{
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme-sect{
+    background-image: url(./images/theme-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+    padding: 5px;
+}
+.theme-sect .first-part{
+    font-size: 33px;
+    margin-bottom: 50px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+.theme-sect .second-part{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.theme-sect .book-appointment{
+    width: 350px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: green;
+    text-align: center;
+    font-size: 23px;
+    padding: 8px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+.about-sect{
+    background-color: white;
+    height: 1100px;
+    color: black;
+}
+.about-sect .why{
+    font-size: 29px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.about-sect .about-message{
+    font-size: 18px;
+    margin: 10px;
+}
+.about-sect .uniqueness{
+    margin: 10px;
+    font-size: 18px;
+}
+.about-sect .uniqueness .all-first{
+    float: left;
+    width: 350px;
+}
+.about-sect .uniqueness .all-second{
+    float: right;
+     width: 350px;
+}
+.about-sect .uniqueness .all-first .unique-first,
+.about-sect .uniqueness .all-second .unique-second{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    border-radius: 22px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin:0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* small screens */
+
+
+@media (min-width: 250px) and (max-width: 425px) {
+    .container{
+        width: 430px;
+    }
+    .header{
+        width: 430px;
+    }
+    #navbar{
+        display: none;
+    }
+    #drop-menu svg{
+        display: block;
+        color: white;
+    }
+    .theme-sect{
+        width: 430px;
+        height: 600px;
+    }
+    .theme-sect .book-appointment{
+        width: 300px;
+    }
+    .about-sect{
+        height: 1100px;
+    }
+    .about-sect .uniqueness .all-first{
+        float: none;
+        width: 430px;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .about-sect .uniqueness .all-second{
+        float: none;
+         width: 430px;
+         box-sizing: border-box;
+         padding: 5px;
+         margin-right: 5px;;
+    }
+    .about-sect{
+        background-color: white;
+        height: 1000px;
+        color: black;
+        width: 430px;
+    }
+
+}
+
+
+
+/*for smaller screens*/
+
+
+
+@media (min-width: 426px) and (max-width: 700px) {
+    .header{
+        width: 730px;
+    }
+    .container{
+        width: 730px;
+    }
+    .header .nav{
+        display: block;
+    }
+    .header .drop-down-menu{
+        display: none;
+        color: white;  
+}
+.theme-sect{
+    width: 730px;
+    height: 400px;
+}
+.theme-sect .book-appointment{
+    width: 350px;
+}
+.about-sect{
+    height: 990px;
+}
+.about-sect .uniqueness .all-first{
+    float: left;
+    width: 730px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.about-sect .uniqueness .all-second{
+    float: right;
+     width: 730px;
+     box-sizing: border-box;
+     padding: 5px;
+}
+.about-sect{
+    background-color: white;
+    height:500px;
+    color: black;
+    width: 700px;
+}
+}
