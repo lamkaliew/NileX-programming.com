@@ -1,16 +1,51 @@
 body{
-    background-color: black;
-    color: white;
-    font-family: arial, tahoma;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
     
 }
-.logo2{
+@media (min-width:320px) and (max-width:425px) {
+    
+
+.container{
+    background-color: green;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid red;
+
+}
+.header{
+    height: 40px;
+    background-color: rgb(0, 0, 0);/* to be removed latter*/
+}
+.header .navbar{
+    display: none;
+    
+}
+.header .company-logo{
+    float: left;
+
+}
+.header .company-logo .nile{
+    display: inline;
+
+}
+.header .company-logo .prog{
+    display: inline;
+
+}
+.xcolor{
     color: red;
 }
-.inline{
-    display: inline-block;
+.header .drop-down-menu{
+    float: right;
 }
-/*
-.container{
-    background-color: darkslategray;
-}*/
+.header .drop-down-menu svg{
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+}
+}
